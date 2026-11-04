@@ -28,7 +28,7 @@
 <main>
 <header>
   <h1>Jelly Jam – Privacy Policy</h1>
-  <p class="muted">Effective date: 4 November 2026 · Developer: Pairo · Contact: <a href="mailto:fahreddin@pairo.cloud">fahreddin@pairo.cloud</a></p>
+  <p class="muted">Effective date: 4 November 2026 · Last updated: 4 November 2026 · Developer: Pairo · Contact: <a href="mailto:fahreddin@pairo.cloud">fahreddin@pairo.cloud</a></p>
   <nav><a href="#en">English</a><a href="#tr">Türkçe</a></nav>
 </header>
 
@@ -37,11 +37,24 @@
 
   <h2>Summary</h2>
   <ul>
-    <li>We do not run our own servers and we do not collect your name, email, contacts, photos or location.</li>
+    <li>We do not run our own servers and we do not collect your name, email, contacts, photos or precise location.</li>
     <li>Your game progress (levels, coins, boosters, settings) is stored only on your device.</li>
     <li>The app shows ads through Google AdMob. Google may collect device and usage data to show and measure ads, as described below.</li>
     <li>Purchases are processed by Apple or Google. We never see your payment details.</li>
+    <li>To fix bugs we collect gameplay events and crash reports through Google Firebase, linked to a random player ID (no name or email).</li>
   </ul>
+
+  <h2>Player ID</h2>
+  <p>On first launch the app creates a random 8-character player ID (shown at the bottom of Settings). It is not linked to your name, email or contacts. It is used as the user ID for analytics, crash reports and purchases, so that if you contact us we can find what happened in your game. You can read it to us from Settings.</p>
+
+  <h2>Analytics and crash reports (Google Firebase)</h2>
+  <p>The app uses Firebase Analytics and Firebase Crashlytics (Google) to understand how the game is played and to find and fix errors. They collect:</p>
+  <ul>
+    <li>Gameplay and app events (for example level started, won or failed, booster used, ad or purchase succeeded or failed, settings opened), with the level, time and similar game values;</li>
+    <li>Crash reports and error logs, including the recent events before the problem;</li>
+    <li>Device and app information (model, OS version, language, app version), an app instance ID, the player ID and approximate location derived from the IP address.</li>
+  </ul>
+  <p>When you tap <em>Report a problem</em> in Settings, the recent event log stored on your device is sent to Crashlytics. See the <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</p>
 
   <h2>Advertising (Google AdMob)</h2>
   <p>The app uses the Google Mobile Ads SDK to show banner, interstitial, rewarded and app-open ads. To deliver, limit, measure and protect ads against fraud, Google and its advertising partners may collect:</p>
@@ -54,16 +67,16 @@
   <p>Learn more: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
   <h2>In-app purchases</h2>
-  <p>Optional purchases (for example "Remove Ads" or coin packs) are handled by the Apple App Store or Google Play using Unity In-App Purchasing. We receive only a purchase confirmation so the item can be delivered; we do not receive your card or billing details. Unity Gaming Services may process limited technical data needed for purchasing; see the <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a>.</p>
+  <p>Optional purchases (for example "Remove Ads" or coin packs) are handled by the Apple App Store or Google Play. We use RevenueCat to validate purchases and restore them; RevenueCat receives the player ID, the purchase receipt and basic device information, but not your card or billing details. See the <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a>.</p>
 
   <h2>Data stored on your device</h2>
-  <p>Game progress and settings are saved locally on your device and are not sent to us. Uninstalling the app deletes this data.</p>
+  <p>Game progress, settings and the recent event log are saved locally on your device. Progress is not sent to us. Uninstalling the app deletes this data.</p>
 
   <h2>Children</h2>
   <p>Jelly Jam is not directed to children under 13 (or the equivalent minimum age in your country). We do not knowingly collect personal information from children. If you believe a child has provided personal information through the app, contact us and we will help remove it.</p>
 
   <h2>Your rights</h2>
-  <p>Depending on where you live, you may have rights to access, correct, delete or object to the processing of your personal data, and to withdraw consent. Because we do not hold personal data ourselves, most requests are handled through the in-app privacy options, your device settings, or directly with Google. You can always contact us at <a href="mailto:fahreddin@pairo.cloud">fahreddin@pairo.cloud</a>.</p>
+  <p>Depending on where you live, you may have rights to access, correct, delete or object to the processing of your personal data, and to withdraw consent. We do not run our own servers; your data is held by the services above. To request access or deletion, email us your player ID and we will handle it with Google and RevenueCat. You can always contact us at <a href="mailto:fahreddin@pairo.cloud">fahreddin@pairo.cloud</a>.</p>
 
   <h2>Changes</h2>
   <p>We may update this policy, for example if we add new features or services. The effective date above will change and the updated policy will be published on this page.</p>
@@ -74,11 +87,24 @@
 
   <h2>Özet</h2>
   <ul>
-    <li>Kendi sunucumuz yoktur; adınızı, e-postanızı, kişilerinizi, fotoğraflarınızı veya konumunuzu toplamayız.</li>
+    <li>Kendi sunucumuz yoktur; adınızı, e-postanızı, kişilerinizi, fotoğraflarınızı veya kesin konumunuzu toplamayız.</li>
     <li>Oyun ilerlemeniz (seviyeler, altınlar, güçlendiriciler, ayarlar) yalnızca cihazınızda saklanır.</li>
     <li>Uygulama Google AdMob aracılığıyla reklam gösterir. Google, reklamları göstermek ve ölçmek için aşağıda açıklanan cihaz ve kullanım verilerini toplayabilir.</li>
     <li>Satın almalar Apple veya Google tarafından işlenir. Ödeme bilgilerinizi hiçbir zaman görmeyiz.</li>
+    <li>Hataları düzeltebilmek için oyun olaylarını ve çökme raporlarını Google Firebase üzerinden, rastgele bir oyuncu numarasına bağlı olarak (ad veya e-posta olmadan) toplarız.</li>
   </ul>
+
+  <h2>Oyuncu numarası</h2>
+  <p>Uygulama ilk açılışta 8 karakterlik rastgele bir oyuncu numarası oluşturur (Ayarlar'ın en altında görünür). Bu numara adınıza, e-postanıza veya kişilerinize bağlı değildir. Analitik, çökme raporları ve satın almalarda kullanıcı kimliği olarak kullanılır; böylece bize ulaştığınızda oyununuzda ne olduğunu bulabiliriz. Numarayı Ayarlar'dan okuyup bize iletebilirsiniz.</p>
+
+  <h2>Analitik ve çökme raporları (Google Firebase)</h2>
+  <p>Uygulama, oyunun nasıl oynandığını anlamak ve hataları bulup düzeltmek için Firebase Analytics ve Firebase Crashlytics'i (Google) kullanır. Bunlar şunları toplar:</p>
+  <ul>
+    <li>Oyun ve uygulama olayları (örneğin seviye başladı, kazanıldı veya kaybedildi, güçlendirici kullanıldı, reklam ya da satın alma başarılı veya başarısız oldu, ayarlar açıldı) ve seviye, süre gibi oyun değerleri;</li>
+    <li>Çökme raporları ve hata kayıtları, sorundan önceki son olaylar dahil;</li>
+    <li>Cihaz ve uygulama bilgileri (model, işletim sistemi sürümü, dil, uygulama sürümü), uygulama örneği kimliği, oyuncu numarası ve IP adresinden çıkarılan yaklaşık konum.</li>
+  </ul>
+  <p>Ayarlar'da <em>Sorun Bildir</em>'e dokunduğunuzda cihazınızda saklanan son olay kaydı Crashlytics'e gönderilir. Bkz. <a href="https://firebase.google.com/support/privacy">Firebase gizlilik bilgileri</a>.</p>
 
   <h2>Reklamlar (Google AdMob)</h2>
   <p>Uygulama banner, geçiş, ödüllü ve açılış reklamları göstermek için Google Mobile Ads SDK'sını kullanır. Reklamları sunmak, sınırlamak, ölçmek ve dolandırıcılığa karşı korumak için Google ve reklam iş ortakları şunları toplayabilir:</p>
@@ -91,16 +117,16 @@
   <p>Daha fazla bilgi: <a href="https://policies.google.com/technologies/partner-sites">Google, hizmetlerini kullanan site ve uygulamalardan gelen bilgileri nasıl kullanır</a> ve <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>.</p>
 
   <h2>Uygulama içi satın almalar</h2>
-  <p>İsteğe bağlı satın almalar ("Reklamları Kaldır" veya altın paketleri gibi) Unity In-App Purchasing aracılığıyla Apple App Store veya Google Play tarafından işlenir. Ürünü teslim edebilmek için yalnızca satın alma onayını alırız; kart veya fatura bilgilerinizi almayız. Unity Gaming Services, satın alma için gereken sınırlı teknik verileri işleyebilir; bkz. <a href="https://unity.com/legal/privacy-policy">Unity Gizlilik Politikası</a>.</p>
+  <p>İsteğe bağlı satın almalar ("Reklamları Kaldır" veya altın paketleri gibi) Apple App Store veya Google Play tarafından işlenir. Satın almaları doğrulamak ve geri yüklemek için RevenueCat kullanırız; RevenueCat oyuncu numarasını, satın alma makbuzunu ve temel cihaz bilgilerini alır, kart veya fatura bilgilerinizi almaz. Bkz. <a href="https://www.revenuecat.com/privacy">RevenueCat Gizlilik Politikası</a>.</p>
 
   <h2>Cihazınızda saklanan veriler</h2>
-  <p>Oyun ilerlemesi ve ayarlar cihazınızda yerel olarak saklanır ve bize gönderilmez. Uygulamayı kaldırmak bu verileri siler.</p>
+  <p>Oyun ilerlemesi, ayarlar ve son olay kaydı cihazınızda yerel olarak saklanır. İlerleme bize gönderilmez. Uygulamayı kaldırmak bu verileri siler.</p>
 
   <h2>Çocuklar</h2>
   <p>Jelly Jam 13 yaşın (veya ülkenizdeki eşdeğer asgari yaşın) altındaki çocuklara yönelik değildir. Çocuklardan bilerek kişisel bilgi toplamayız. Bir çocuğun uygulama üzerinden kişisel bilgi verdiğini düşünüyorsanız bize ulaşın; kaldırılmasına yardımcı oluruz.</p>
 
   <h2>Haklarınız</h2>
-  <p>Yaşadığınız yere bağlı olarak kişisel verilerinize erişme, düzeltme, silme, işlenmesine itiraz etme ve onayınızı geri çekme haklarınız olabilir. Kişisel verileri kendimiz tutmadığımız için taleplerin çoğu uygulama içi gizlilik seçenekleri, cihaz ayarlarınız veya doğrudan Google üzerinden karşılanır. Bize her zaman <a href="mailto:fahreddin@pairo.cloud">fahreddin@pairo.cloud</a> adresinden ulaşabilirsiniz.</p>
+  <p>Yaşadığınız yere bağlı olarak kişisel verilerinize erişme, düzeltme, silme, işlenmesine itiraz etme ve onayınızı geri çekme haklarınız olabilir. Kendi sunucumuz yoktur; verileriniz yukarıdaki hizmetlerde tutulur. Erişim veya silme talebi için oyuncu numaranızı bize e-postayla gönderin, talebinizi Google ve RevenueCat ile birlikte işleme alırız. Bize her zaman <a href="mailto:fahreddin@pairo.cloud">fahreddin@pairo.cloud</a> adresinden ulaşabilirsiniz.</p>
 
   <h2>Değişiklikler</h2>
   <p>Bu politikayı, örneğin yeni özellik veya hizmet eklediğimizde güncelleyebiliriz. Yukarıdaki yürürlük tarihi değişir ve güncel politika bu sayfada yayımlanır.</p>
